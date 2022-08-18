@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "email": "paulo@mail.com",
+      "password": "$2a$10$n5kJzq8WiiPE5ZmWn2/bQOyt40JbnXA2R0LT1hcPr7IjLuXniBa0O",
+      "name": "Paulo",
+      "cpf": 12316497456131,
+      "id": 1
+    },
+    {
+      "email": "rapha@mail.com",
+      "password": "$2a$10$4Vob4zVaBWu3UUEHv0kMMODFVw52UHFp0Dy8NLQTa91sI6qoeNGnS",
+      "name": "Paulo",
+      "cpf": 12316497456131,
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Televisão",
+      "price": 1800,
+      "category": "A",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "Geladeira ",
+      "userId": 1,
+      "price": 1500,
+      "category": "A",
+      "id": 2
+    },
+    {
+      "name": "Microondas ",
+      "userId": 1,
+      "price": 400,
+      "category": "A",
+      "id": 3
+    },
+    {
+      "name": "Sofá cama",
+      "userId": 2,
+      "price": 100,
+      "category": "D",
+      "id": 4
+    },
+    {
+      "name": "Sofa",
+      "userId": 2,
+      "price": 850,
+      "category": "C",
+      "id": 5
+    }
+  ],
+  "features": [
+    {
+      "brand": "Samsung",
+      "model": "SmartTV 50",
+      "weight": 16,
+      "productId": 1,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "brand": "Toshiba",
+      "model": "Antiguidade",
+      "weight": 65,
+      "productId": 1,
+      "userId": 1,
+      "id": 2
+    }
+  ]
+}
